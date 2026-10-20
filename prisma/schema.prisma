@@ -1,0 +1,205 @@
+// Local default is SQLite. For Postgres, change provider to "postgresql"
+// (the Dockerfile does this when DATABASE_PROVIDER=postgresql). Field types
+// below are valid on both.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String       @id @default(cuid())
+  email        String       @unique
+  name         String
+  passwordHash String
+  locale       String       @default("fr")
+  postalCode   String       @default("H7T2P1")
+  createdAt    DateTime     @default(now())
+  recipes      Recipe[]
+  pantryItems  PantryItem[]
+  groceryItems GroceryItem[]
+  mealEntries  MealEntry[]
+  receipts     Receipt[]
+  alerts       SaleAlert[]
+}
+
+model Recipe {
+  id            String             @id @default(cuid())
+  userId        String
+  user          User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title         String
+  titleEn       String             @default("")
+  description   String             @default("")
+  descriptionEn String             @default("")
+  cuisine       String             @default("")
+  origin        String             @default("")
+  language      String             @default("fr")
+  sourceUrl     String             @default("")
+  imageUrl      String             @default("")
+  servings      Int                @default(4)
+  prepMinutes   Int                @default(0)
+  cookMinutes   Int                @default(0)
+  steps         String             @default("[]")
+  stepsEn       String             @default("[]")
+  tags          String             @default("")
+  createdAt     DateTime           @default(now())
+  ingredients   RecipeIngredient[]
+  mealEntries   MealEntry[]
+
+  @@index([userId])
+}
+
+model RecipeIngredient {
+  id       String  @id @default(cuid())
+  recipeId String
+  recipe   Recipe  @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  position Int
+  raw      String
+  quantity Float?
+  unit     String  @default("")
+  item     String
+  itemKey  String
+  notes    String  @default("")
+  optional Boolean @default(false)
+
+  @@index([recipeId])
+  @@index([itemKey])
+}
+
+model PantryItem {
+  id           String    @id @default(cuid())
+  userId       String
+  user         User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name         String
+  itemKey      String
+  quantity     Float
+  unit         String
+  category     String
+  location     String
+  purchaseDate DateTime
+  expiryDate   DateTime?
+  priceCents   Int?
+  storeId      String    @default("")
+  createdAt    DateTime  @default(now())
+
+  @@index([userId, itemKey])
+}
+
+model GroceryItem {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name      String
+  itemKey   String
+  quantity  Float
+  unit      String
+  category  String
+  checked   Boolean  @default(false)
+  source    String
+  recipeId  String   @default("")
+  createdAt DateTime @default(now())
+
+  @@index([userId, checked])
+}
+
+model MealEntry {
+  id        String @id @default(cuid())
+  userId    String
+  user      User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recipeId  String
+  recipe    Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  weekStart String
+  dayIndex  Int
+  meal      String
+  servings  Int
+
+  @@index([userId, weekStart])
+}
+
+model Receipt {
+  id          String        @id @default(cuid())
+  userId      String
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  storeName   String
+  storeId     String        @default("")
+  purchasedAt DateTime
+  rawText     String
+  totalCents  Int           @default(0)
+  createdAt   DateTime      @default(now())
+  lines       ReceiptLine[]
+}
+
+model ReceiptLine {
+  id         String  @id @default(cuid())
+  receiptId  String
+  receipt    Receipt @relation(fields: [receiptId], references: [id], onDelete: Cascade)
+  name       String
+  itemKey    String
+  quantity   Float
+  unit       String
+  priceCents Int
+  category   String
+}
+
+model CatalogProduct {
+  id           String             @id @default(cuid())
+  storeId      String
+  externalId   String
+  name         String
+  brand        String             @default("")
+  itemKey      String             @default("")
+  sizeText     String             @default("")
+  packageQty   Float?
+  packageUnit  String             @default("")
+  loose        Boolean            @default(false)
+  productUrl   String             @default("")
+  observations PriceObservation[]
+
+  @@unique([storeId, externalId])
+  @@index([itemKey])
+  @@index([storeId])
+}
+
+model PriceObservation {
+  id                String         @id @default(cuid())
+  productId         String
+  product           CatalogProduct @relation(fields: [productId], references: [id], onDelete: Cascade)
+  storeId           String
+  postalCode        String
+  observedAt        DateTime
+  priceCents        Int
+  regularPriceCents Int?
+  unitPriceCents    Int?
+  unitPriceBasis    String         @default("")
+  onSale            Boolean        @default(false)
+  source            String
+
+  @@index([storeId, observedAt])
+  @@index([productId, observedAt])
+}
+
+model SaleAlert {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  itemKey         String
+  productName     String
+  storeId         String
+  priceCents      Int
+  usualPriceCents Int
+  createdAt       DateTime @default(now())
+  read            Boolean  @default(false)
+
+  @@index([userId, read])
+}
+
+model ScrapeCache {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  payload   String
+  fetchedAt DateTime @default(now())
+}
