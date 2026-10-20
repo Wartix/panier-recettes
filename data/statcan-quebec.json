@@ -1,0 +1,2233 @@
+{
+  "source": "Statistics Canada. Table 18-10-0245-01 Monthly average retail prices for selected products",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810024501",
+  "download": "https://www150.statcan.gc.ca/n1/tbl/csv/18100245-eng.zip",
+  "geo": "Quebec",
+  "extracted": "2026-10-20",
+  "note": "Monthly average retail prices, Quebec. Rough estimate when no grocery-store observation exists.",
+  "series": [
+    {
+      "itemKey": "chicken_breast",
+      "product": "Chicken breasts, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 13.81
+        },
+        {
+          "date": "2025-10",
+          "value": 13.5
+        },
+        {
+          "date": "2025-11",
+          "value": 13.99
+        },
+        {
+          "date": "2025-12",
+          "value": 13.98
+        },
+        {
+          "date": "2026-01",
+          "value": 13.18
+        },
+        {
+          "date": "2026-02",
+          "value": 14.8
+        },
+        {
+          "date": "2026-03",
+          "value": 15.02
+        },
+        {
+          "date": "2026-04",
+          "value": 13.82
+        },
+        {
+          "date": "2026-05",
+          "value": 13.77
+        },
+        {
+          "date": "2026-06",
+          "value": 14.07
+        },
+        {
+          "date": "2026-07",
+          "value": 14.03
+        },
+        {
+          "date": "2026-08",
+          "value": 14.01
+        }
+      ]
+    },
+    {
+      "itemKey": "chicken_thigh",
+      "product": "Chicken thigh, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 14.9
+        },
+        {
+          "date": "2025-10",
+          "value": 15.1
+        },
+        {
+          "date": "2025-11",
+          "value": 15.0
+        },
+        {
+          "date": "2025-12",
+          "value": 15.2
+        },
+        {
+          "date": "2026-01",
+          "value": 14.13
+        },
+        {
+          "date": "2026-02",
+          "value": 14.2
+        },
+        {
+          "date": "2026-03",
+          "value": 14.98
+        },
+        {
+          "date": "2026-04",
+          "value": 13.79
+        },
+        {
+          "date": "2026-05",
+          "value": 14.66
+        },
+        {
+          "date": "2026-06",
+          "value": 15.46
+        },
+        {
+          "date": "2026-07",
+          "value": 14.69
+        },
+        {
+          "date": "2026-08",
+          "value": 16.08
+        }
+      ]
+    },
+    {
+      "itemKey": "chicken",
+      "product": "Whole chicken, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 8.86
+        },
+        {
+          "date": "2025-10",
+          "value": 6.27
+        },
+        {
+          "date": "2025-11",
+          "value": 5.58
+        },
+        {
+          "date": "2025-12",
+          "value": 5.79
+        },
+        {
+          "date": "2026-01",
+          "value": 6.05
+        },
+        {
+          "date": "2026-02",
+          "value": 9.11
+        },
+        {
+          "date": "2026-03",
+          "value": 8.03
+        },
+        {
+          "date": "2026-04",
+          "value": 5.88
+        },
+        {
+          "date": "2026-05",
+          "value": 10.18
+        },
+        {
+          "date": "2026-06",
+          "value": 5.84
+        },
+        {
+          "date": "2026-07",
+          "value": 8.93
+        },
+        {
+          "date": "2026-08",
+          "value": 6.71
+        }
+      ]
+    },
+    {
+      "itemKey": "ground_beef",
+      "product": "Ground beef, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 14.36
+        },
+        {
+          "date": "2025-10",
+          "value": 15.61
+        },
+        {
+          "date": "2025-11",
+          "value": 14.95
+        },
+        {
+          "date": "2025-12",
+          "value": 16.24
+        },
+        {
+          "date": "2026-01",
+          "value": 14.57
+        },
+        {
+          "date": "2026-02",
+          "value": 17.23
+        },
+        {
+          "date": "2026-03",
+          "value": 15.42
+        },
+        {
+          "date": "2026-04",
+          "value": 14.86
+        },
+        {
+          "date": "2026-05",
+          "value": 15.26
+        },
+        {
+          "date": "2026-06",
+          "value": 16.13
+        },
+        {
+          "date": "2026-07",
+          "value": 15.77
+        },
+        {
+          "date": "2026-08",
+          "value": 16.77
+        }
+      ]
+    },
+    {
+      "itemKey": "butter",
+      "product": "Butter, 454 grams",
+      "packageQty": 454,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 5.45
+        },
+        {
+          "date": "2025-10",
+          "value": 5.71
+        },
+        {
+          "date": "2025-11",
+          "value": 5.22
+        },
+        {
+          "date": "2025-12",
+          "value": 5.44
+        },
+        {
+          "date": "2026-01",
+          "value": 5.52
+        },
+        {
+          "date": "2026-02",
+          "value": 5.96
+        },
+        {
+          "date": "2026-03",
+          "value": 5.55
+        },
+        {
+          "date": "2026-04",
+          "value": 5.68
+        },
+        {
+          "date": "2026-05",
+          "value": 5.62
+        },
+        {
+          "date": "2026-06",
+          "value": 5.58
+        },
+        {
+          "date": "2026-07",
+          "value": 5.71
+        },
+        {
+          "date": "2026-08",
+          "value": 5.46
+        }
+      ]
+    },
+    {
+      "itemKey": "egg",
+      "product": "Eggs, 1 dozen",
+      "packageQty": 12,
+      "packageUnit": "ct",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 4.41
+        },
+        {
+          "date": "2025-10",
+          "value": 4.01
+        },
+        {
+          "date": "2025-11",
+          "value": 4.07
+        },
+        {
+          "date": "2025-12",
+          "value": 3.98
+        },
+        {
+          "date": "2026-01",
+          "value": 4.07
+        },
+        {
+          "date": "2026-02",
+          "value": 4.25
+        },
+        {
+          "date": "2026-03",
+          "value": 4.2
+        },
+        {
+          "date": "2026-04",
+          "value": 4.12
+        },
+        {
+          "date": "2026-05",
+          "value": 4.19
+        },
+        {
+          "date": "2026-06",
+          "value": 4.29
+        },
+        {
+          "date": "2026-07",
+          "value": 4.43
+        },
+        {
+          "date": "2026-08",
+          "value": 4.16
+        }
+      ]
+    },
+    {
+      "itemKey": "milk",
+      "product": "Milk, 2 litres",
+      "packageQty": 2000,
+      "packageUnit": "ml",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 5.25
+        },
+        {
+          "date": "2025-10",
+          "value": 5.23
+        },
+        {
+          "date": "2025-11",
+          "value": 5.26
+        },
+        {
+          "date": "2025-12",
+          "value": 5.26
+        },
+        {
+          "date": "2026-01",
+          "value": 5.29
+        },
+        {
+          "date": "2026-02",
+          "value": 5.36
+        },
+        {
+          "date": "2026-03",
+          "value": 5.39
+        },
+        {
+          "date": "2026-04",
+          "value": 5.33
+        },
+        {
+          "date": "2026-05",
+          "value": 5.44
+        },
+        {
+          "date": "2026-06",
+          "value": 5.39
+        },
+        {
+          "date": "2026-07",
+          "value": 5.41
+        },
+        {
+          "date": "2026-08",
+          "value": 5.36
+        }
+      ]
+    },
+    {
+      "itemKey": "bread",
+      "product": "White bread, 675 grams",
+      "packageQty": 675,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 3.88
+        },
+        {
+          "date": "2025-10",
+          "value": 3.99
+        },
+        {
+          "date": "2025-11",
+          "value": 3.93
+        },
+        {
+          "date": "2025-12",
+          "value": 3.95
+        },
+        {
+          "date": "2026-01",
+          "value": 4.03
+        },
+        {
+          "date": "2026-02",
+          "value": 4.01
+        },
+        {
+          "date": "2026-03",
+          "value": 4.0
+        },
+        {
+          "date": "2026-04",
+          "value": 3.95
+        },
+        {
+          "date": "2026-05",
+          "value": 3.93
+        },
+        {
+          "date": "2026-06",
+          "value": 3.91
+        },
+        {
+          "date": "2026-07",
+          "value": 3.94
+        },
+        {
+          "date": "2026-08",
+          "value": 3.97
+        }
+      ]
+    },
+    {
+      "itemKey": "banana",
+      "product": "Bananas, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 1.79
+        },
+        {
+          "date": "2025-10",
+          "value": 1.77
+        },
+        {
+          "date": "2025-11",
+          "value": 1.78
+        },
+        {
+          "date": "2025-12",
+          "value": 1.76
+        },
+        {
+          "date": "2026-01",
+          "value": 1.79
+        },
+        {
+          "date": "2026-02",
+          "value": 1.92
+        },
+        {
+          "date": "2026-03",
+          "value": 1.95
+        },
+        {
+          "date": "2026-04",
+          "value": 1.93
+        },
+        {
+          "date": "2026-05",
+          "value": 1.96
+        },
+        {
+          "date": "2026-06",
+          "value": 1.95
+        },
+        {
+          "date": "2026-07",
+          "value": 1.98
+        },
+        {
+          "date": "2026-08",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "itemKey": "apple",
+      "product": "Apples, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 4.63
+        },
+        {
+          "date": "2025-10",
+          "value": 4.91
+        },
+        {
+          "date": "2025-11",
+          "value": 5.49
+        },
+        {
+          "date": "2025-12",
+          "value": 5.72
+        },
+        {
+          "date": "2026-01",
+          "value": 5.66
+        },
+        {
+          "date": "2026-02",
+          "value": 5.17
+        },
+        {
+          "date": "2026-03",
+          "value": 5.13
+        },
+        {
+          "date": "2026-04",
+          "value": 5.55
+        },
+        {
+          "date": "2026-05",
+          "value": 5.79
+        },
+        {
+          "date": "2026-06",
+          "value": 6.01
+        },
+        {
+          "date": "2026-07",
+          "value": 6.01
+        },
+        {
+          "date": "2026-08",
+          "value": 6.25
+        }
+      ]
+    },
+    {
+      "itemKey": "onion",
+      "product": "Onions, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 4.81
+        },
+        {
+          "date": "2025-10",
+          "value": 4.56
+        },
+        {
+          "date": "2025-11",
+          "value": 4.73
+        },
+        {
+          "date": "2025-12",
+          "value": 4.73
+        },
+        {
+          "date": "2026-01",
+          "value": 4.62
+        },
+        {
+          "date": "2026-02",
+          "value": 4.78
+        },
+        {
+          "date": "2026-03",
+          "value": 4.59
+        },
+        {
+          "date": "2026-04",
+          "value": 4.69
+        },
+        {
+          "date": "2026-05",
+          "value": 4.72
+        },
+        {
+          "date": "2026-06",
+          "value": 4.91
+        },
+        {
+          "date": "2026-07",
+          "value": 4.97
+        },
+        {
+          "date": "2026-08",
+          "value": 4.94
+        }
+      ]
+    },
+    {
+      "itemKey": "tomato",
+      "product": "Tomatoes, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 5.13
+        },
+        {
+          "date": "2025-10",
+          "value": 5.24
+        },
+        {
+          "date": "2025-11",
+          "value": 5.14
+        },
+        {
+          "date": "2025-12",
+          "value": 5.38
+        },
+        {
+          "date": "2026-01",
+          "value": 7.08
+        },
+        {
+          "date": "2026-02",
+          "value": 7.34
+        },
+        {
+          "date": "2026-03",
+          "value": 7.21
+        },
+        {
+          "date": "2026-04",
+          "value": 7.11
+        },
+        {
+          "date": "2026-05",
+          "value": 7.53
+        },
+        {
+          "date": "2026-06",
+          "value": 5.08
+        },
+        {
+          "date": "2026-07",
+          "value": 5.3
+        },
+        {
+          "date": "2026-08",
+          "value": 5.47
+        }
+      ]
+    },
+    {
+      "itemKey": "potato",
+      "product": "Potatoes, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 4.48
+        },
+        {
+          "date": "2025-10",
+          "value": 4.55
+        },
+        {
+          "date": "2025-11",
+          "value": 4.57
+        },
+        {
+          "date": "2025-12",
+          "value": 4.56
+        },
+        {
+          "date": "2026-01",
+          "value": 4.58
+        },
+        {
+          "date": "2026-02",
+          "value": 4.57
+        },
+        {
+          "date": "2026-03",
+          "value": 4.55
+        },
+        {
+          "date": "2026-04",
+          "value": 4.58
+        },
+        {
+          "date": "2026-05",
+          "value": 4.59
+        },
+        {
+          "date": "2026-06",
+          "value": 4.55
+        },
+        {
+          "date": "2026-07",
+          "value": 4.87
+        },
+        {
+          "date": "2026-08",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "itemKey": "carrot",
+      "product": "Carrots, 1.36 kilograms",
+      "packageQty": 1360,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 3.05
+        },
+        {
+          "date": "2025-10",
+          "value": 2.29
+        },
+        {
+          "date": "2025-11",
+          "value": 2.6
+        },
+        {
+          "date": "2025-12",
+          "value": 2.08
+        },
+        {
+          "date": "2026-01",
+          "value": 2.94
+        },
+        {
+          "date": "2026-02",
+          "value": 2.77
+        },
+        {
+          "date": "2026-03",
+          "value": 3.04
+        },
+        {
+          "date": "2026-04",
+          "value": 4.1
+        },
+        {
+          "date": "2026-05",
+          "value": 4.31
+        },
+        {
+          "date": "2026-06",
+          "value": 4.67
+        },
+        {
+          "date": "2026-07",
+          "value": 4.37
+        },
+        {
+          "date": "2026-08",
+          "value": 3.27
+        }
+      ]
+    },
+    {
+      "itemKey": "rice",
+      "product": "White rice, 2 kilograms",
+      "packageQty": 2000,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 10.68
+        },
+        {
+          "date": "2025-10",
+          "value": 10.67
+        },
+        {
+          "date": "2025-11",
+          "value": 10.66
+        },
+        {
+          "date": "2025-12",
+          "value": 10.73
+        },
+        {
+          "date": "2026-01",
+          "value": 10.69
+        },
+        {
+          "date": "2026-02",
+          "value": 10.89
+        },
+        {
+          "date": "2026-03",
+          "value": 10.69
+        },
+        {
+          "date": "2026-04",
+          "value": 10.79
+        },
+        {
+          "date": "2026-05",
+          "value": 11.22
+        },
+        {
+          "date": "2026-06",
+          "value": 10.81
+        },
+        {
+          "date": "2026-07",
+          "value": 10.86
+        },
+        {
+          "date": "2026-08",
+          "value": 11.01
+        }
+      ]
+    },
+    {
+      "itemKey": "pasta",
+      "product": "Dry or fresh pasta, 500 grams",
+      "packageQty": 500,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 3.06
+        },
+        {
+          "date": "2025-10",
+          "value": 3.22
+        },
+        {
+          "date": "2025-11",
+          "value": 3.07
+        },
+        {
+          "date": "2025-12",
+          "value": 3.15
+        },
+        {
+          "date": "2026-01",
+          "value": 3.09
+        },
+        {
+          "date": "2026-02",
+          "value": 3.34
+        },
+        {
+          "date": "2026-03",
+          "value": 3.19
+        },
+        {
+          "date": "2026-04",
+          "value": 3.34
+        },
+        {
+          "date": "2026-05",
+          "value": 3.22
+        },
+        {
+          "date": "2026-06",
+          "value": 3.32
+        },
+        {
+          "date": "2026-07",
+          "value": 3.28
+        },
+        {
+          "date": "2026-08",
+          "value": 3.22
+        }
+      ]
+    },
+    {
+      "itemKey": "canned_tomato",
+      "product": "Canned tomatoes, 796 millilitres",
+      "packageQty": 796,
+      "packageUnit": "ml",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 2.06
+        },
+        {
+          "date": "2025-10",
+          "value": 2.06
+        },
+        {
+          "date": "2025-11",
+          "value": 2.22
+        },
+        {
+          "date": "2025-12",
+          "value": 2.09
+        },
+        {
+          "date": "2026-01",
+          "value": 2.18
+        },
+        {
+          "date": "2026-02",
+          "value": 2.21
+        },
+        {
+          "date": "2026-03",
+          "value": 2.08
+        },
+        {
+          "date": "2026-04",
+          "value": 2.2
+        },
+        {
+          "date": "2026-05",
+          "value": 1.92
+        },
+        {
+          "date": "2026-06",
+          "value": 2.26
+        },
+        {
+          "date": "2026-07",
+          "value": 2.33
+        },
+        {
+          "date": "2026-08",
+          "value": 2.19
+        }
+      ]
+    },
+    {
+      "itemKey": "flour",
+      "product": "Wheat flour, 2.5 kilograms",
+      "packageQty": 2500,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 5.11
+        },
+        {
+          "date": "2025-10",
+          "value": 4.98
+        },
+        {
+          "date": "2025-11",
+          "value": 5.02
+        },
+        {
+          "date": "2025-12",
+          "value": 4.94
+        },
+        {
+          "date": "2026-01",
+          "value": 5.07
+        },
+        {
+          "date": "2026-02",
+          "value": 5.11
+        },
+        {
+          "date": "2026-03",
+          "value": 4.96
+        },
+        {
+          "date": "2026-04",
+          "value": 5.12
+        },
+        {
+          "date": "2026-05",
+          "value": 5.2
+        },
+        {
+          "date": "2026-06",
+          "value": 5.06
+        },
+        {
+          "date": "2026-07",
+          "value": 5.23
+        },
+        {
+          "date": "2026-08",
+          "value": 5.18
+        }
+      ]
+    },
+    {
+      "itemKey": "sugar",
+      "product": "White sugar, 2 kilograms",
+      "packageQty": 2000,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 2.69
+        },
+        {
+          "date": "2025-10",
+          "value": 2.66
+        },
+        {
+          "date": "2025-11",
+          "value": 2.7
+        },
+        {
+          "date": "2025-12",
+          "value": 2.65
+        },
+        {
+          "date": "2026-01",
+          "value": 3.2
+        },
+        {
+          "date": "2026-02",
+          "value": 2.47
+        },
+        {
+          "date": "2026-03",
+          "value": 2.49
+        },
+        {
+          "date": "2026-04",
+          "value": 3.04
+        },
+        {
+          "date": "2026-05",
+          "value": 2.79
+        },
+        {
+          "date": "2026-06",
+          "value": 2.94
+        },
+        {
+          "date": "2026-07",
+          "value": 2.77
+        },
+        {
+          "date": "2026-08",
+          "value": 2.52
+        }
+      ]
+    },
+    {
+      "itemKey": "olive_oil",
+      "product": "Olive oil, 1 litre",
+      "packageQty": 1000,
+      "packageUnit": "ml",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 9.92
+        },
+        {
+          "date": "2025-10",
+          "value": 10.9
+        },
+        {
+          "date": "2025-11",
+          "value": 11.19
+        },
+        {
+          "date": "2025-12",
+          "value": 11.41
+        },
+        {
+          "date": "2026-01",
+          "value": 12.01
+        },
+        {
+          "date": "2026-02",
+          "value": 11.91
+        },
+        {
+          "date": "2026-03",
+          "value": 11.76
+        },
+        {
+          "date": "2026-04",
+          "value": 11.45
+        },
+        {
+          "date": "2026-05",
+          "value": 12.34
+        },
+        {
+          "date": "2026-06",
+          "value": 11.98
+        },
+        {
+          "date": "2026-07",
+          "value": 10.6
+        },
+        {
+          "date": "2026-08",
+          "value": 12.85
+        }
+      ]
+    },
+    {
+      "itemKey": "yogurt",
+      "product": "Yogurt, 500 grams",
+      "packageQty": 500,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 3.69
+        },
+        {
+          "date": "2025-10",
+          "value": 3.77
+        },
+        {
+          "date": "2025-11",
+          "value": 3.8
+        },
+        {
+          "date": "2025-12",
+          "value": 3.76
+        },
+        {
+          "date": "2026-01",
+          "value": 3.81
+        },
+        {
+          "date": "2026-02",
+          "value": 3.82
+        },
+        {
+          "date": "2026-03",
+          "value": 3.98
+        },
+        {
+          "date": "2026-04",
+          "value": 3.97
+        },
+        {
+          "date": "2026-05",
+          "value": 4.02
+        },
+        {
+          "date": "2026-06",
+          "value": 3.98
+        },
+        {
+          "date": "2026-07",
+          "value": 3.96
+        },
+        {
+          "date": "2026-08",
+          "value": 4.1
+        }
+      ]
+    },
+    {
+      "itemKey": "cheddar",
+      "product": "Block cheese, 500 grams",
+      "packageQty": 500,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 6.72
+        },
+        {
+          "date": "2025-10",
+          "value": 6.52
+        },
+        {
+          "date": "2025-11",
+          "value": 6.73
+        },
+        {
+          "date": "2025-12",
+          "value": 6.65
+        },
+        {
+          "date": "2026-01",
+          "value": 6.73
+        },
+        {
+          "date": "2026-02",
+          "value": 7.07
+        },
+        {
+          "date": "2026-03",
+          "value": 6.96
+        },
+        {
+          "date": "2026-04",
+          "value": 7.08
+        },
+        {
+          "date": "2026-05",
+          "value": 6.94
+        },
+        {
+          "date": "2026-06",
+          "value": 7.01
+        },
+        {
+          "date": "2026-07",
+          "value": 6.93
+        },
+        {
+          "date": "2026-08",
+          "value": 6.88
+        }
+      ]
+    },
+    {
+      "itemKey": "shrimp",
+      "product": "Shrimp, 300 grams",
+      "packageQty": 300,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 7.78
+        },
+        {
+          "date": "2025-10",
+          "value": 7.69
+        },
+        {
+          "date": "2025-11",
+          "value": 7.31
+        },
+        {
+          "date": "2025-12",
+          "value": 8.09
+        },
+        {
+          "date": "2026-01",
+          "value": 7.86
+        },
+        {
+          "date": "2026-02",
+          "value": 7.83
+        },
+        {
+          "date": "2026-03",
+          "value": 7.6
+        },
+        {
+          "date": "2026-04",
+          "value": 7.81
+        },
+        {
+          "date": "2026-05",
+          "value": 7.69
+        },
+        {
+          "date": "2026-06",
+          "value": 7.88
+        },
+        {
+          "date": "2026-07",
+          "value": 6.95
+        },
+        {
+          "date": "2026-08",
+          "value": 7.91
+        }
+      ]
+    },
+    {
+      "itemKey": "salmon",
+      "product": "Salmon, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 26.99
+        },
+        {
+          "date": "2025-10",
+          "value": 22.22
+        },
+        {
+          "date": "2025-11",
+          "value": 23.14
+        },
+        {
+          "date": "2025-12",
+          "value": 22.32
+        },
+        {
+          "date": "2026-01",
+          "value": 27.22
+        },
+        {
+          "date": "2026-02",
+          "value": 24.89
+        },
+        {
+          "date": "2026-03",
+          "value": 23.64
+        },
+        {
+          "date": "2026-04",
+          "value": 25.94
+        },
+        {
+          "date": "2026-05",
+          "value": 24.48
+        },
+        {
+          "date": "2026-06",
+          "value": 25.75
+        },
+        {
+          "date": "2026-07",
+          "value": 26.21
+        },
+        {
+          "date": "2026-08",
+          "value": 24.39
+        }
+      ]
+    },
+    {
+      "itemKey": "lemon",
+      "product": "Lemons, unit",
+      "packageQty": 1,
+      "packageUnit": "ct",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 1.08
+        },
+        {
+          "date": "2025-10",
+          "value": 0.99
+        },
+        {
+          "date": "2025-11",
+          "value": 1.03
+        },
+        {
+          "date": "2025-12",
+          "value": 1.03
+        },
+        {
+          "date": "2026-01",
+          "value": 1.03
+        },
+        {
+          "date": "2026-02",
+          "value": 1.04
+        },
+        {
+          "date": "2026-03",
+          "value": 0.95
+        },
+        {
+          "date": "2026-04",
+          "value": 0.98
+        },
+        {
+          "date": "2026-05",
+          "value": 0.95
+        },
+        {
+          "date": "2026-06",
+          "value": 1.0
+        },
+        {
+          "date": "2026-07",
+          "value": 0.96
+        },
+        {
+          "date": "2026-08",
+          "value": 0.96
+        }
+      ]
+    },
+    {
+      "itemKey": "mushroom",
+      "product": "Mushrooms, 227 grams",
+      "packageQty": 227,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 2.42
+        },
+        {
+          "date": "2025-10",
+          "value": 1.68
+        },
+        {
+          "date": "2025-11",
+          "value": 1.9
+        },
+        {
+          "date": "2025-12",
+          "value": 2.16
+        },
+        {
+          "date": "2026-01",
+          "value": 2.06
+        },
+        {
+          "date": "2026-02",
+          "value": 1.9
+        },
+        {
+          "date": "2026-03",
+          "value": 2.0
+        },
+        {
+          "date": "2026-04",
+          "value": 2.03
+        },
+        {
+          "date": "2026-05",
+          "value": 1.91
+        },
+        {
+          "date": "2026-06",
+          "value": 1.92
+        },
+        {
+          "date": "2026-07",
+          "value": 2.01
+        },
+        {
+          "date": "2026-08",
+          "value": 2.1
+        }
+      ]
+    },
+    {
+      "itemKey": "bell_pepper",
+      "product": "Peppers, per kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": true,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 4.66
+        },
+        {
+          "date": "2025-10",
+          "value": 5.3
+        },
+        {
+          "date": "2025-11",
+          "value": 9.08
+        },
+        {
+          "date": "2025-12",
+          "value": 9.03
+        },
+        {
+          "date": "2026-01",
+          "value": 8.33
+        },
+        {
+          "date": "2026-02",
+          "value": 8.9
+        },
+        {
+          "date": "2026-03",
+          "value": 8.77
+        },
+        {
+          "date": "2026-04",
+          "value": 7.34
+        },
+        {
+          "date": "2026-05",
+          "value": 7.54
+        },
+        {
+          "date": "2026-06",
+          "value": 7.26
+        },
+        {
+          "date": "2026-07",
+          "value": 8.39
+        },
+        {
+          "date": "2026-08",
+          "value": 4.88
+        }
+      ]
+    },
+    {
+      "itemKey": "beans",
+      "product": "Canned beans and lentils, 540 millilitres",
+      "packageQty": 540,
+      "packageUnit": "ml",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 1.73
+        },
+        {
+          "date": "2025-10",
+          "value": 1.54
+        },
+        {
+          "date": "2025-11",
+          "value": 1.84
+        },
+        {
+          "date": "2025-12",
+          "value": 1.75
+        },
+        {
+          "date": "2026-01",
+          "value": 1.77
+        },
+        {
+          "date": "2026-02",
+          "value": 1.74
+        },
+        {
+          "date": "2026-03",
+          "value": 1.76
+        },
+        {
+          "date": "2026-04",
+          "value": 1.71
+        },
+        {
+          "date": "2026-05",
+          "value": 1.71
+        },
+        {
+          "date": "2026-06",
+          "value": 1.74
+        },
+        {
+          "date": "2026-07",
+          "value": 1.75
+        },
+        {
+          "date": "2026-08",
+          "value": 1.57
+        }
+      ]
+    },
+    {
+      "itemKey": "tofu",
+      "product": "Tofu, 350 grams",
+      "packageQty": 350,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 2.89
+        },
+        {
+          "date": "2025-10",
+          "value": 2.78
+        },
+        {
+          "date": "2025-11",
+          "value": 2.91
+        },
+        {
+          "date": "2025-12",
+          "value": 2.93
+        },
+        {
+          "date": "2026-01",
+          "value": 2.72
+        },
+        {
+          "date": "2026-02",
+          "value": 2.8
+        },
+        {
+          "date": "2026-03",
+          "value": 2.98
+        },
+        {
+          "date": "2026-04",
+          "value": 2.99
+        },
+        {
+          "date": "2026-05",
+          "value": 3.03
+        },
+        {
+          "date": "2026-06",
+          "value": 2.93
+        },
+        {
+          "date": "2026-07",
+          "value": 2.85
+        },
+        {
+          "date": "2026-08",
+          "value": 2.85
+        }
+      ]
+    },
+    {
+      "itemKey": "corn",
+      "product": "Canned corn, 341 millilitres",
+      "packageQty": 341,
+      "packageUnit": "ml",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 1.48
+        },
+        {
+          "date": "2025-10",
+          "value": 1.44
+        },
+        {
+          "date": "2025-11",
+          "value": 1.54
+        },
+        {
+          "date": "2025-12",
+          "value": 1.48
+        },
+        {
+          "date": "2026-01",
+          "value": 1.61
+        },
+        {
+          "date": "2026-02",
+          "value": 1.72
+        },
+        {
+          "date": "2026-03",
+          "value": 1.44
+        },
+        {
+          "date": "2026-04",
+          "value": 1.52
+        },
+        {
+          "date": "2026-05",
+          "value": 1.71
+        },
+        {
+          "date": "2026-06",
+          "value": 1.59
+        },
+        {
+          "date": "2026-07",
+          "value": 1.64
+        },
+        {
+          "date": "2026-08",
+          "value": 1.72
+        }
+      ]
+    },
+    {
+      "itemKey": "broccoli",
+      "product": "Broccoli, unit",
+      "packageQty": 1,
+      "packageUnit": "ct",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 1.97
+        },
+        {
+          "date": "2025-10",
+          "value": 1.93
+        },
+        {
+          "date": "2025-11",
+          "value": 2.49
+        },
+        {
+          "date": "2025-12",
+          "value": 2.34
+        },
+        {
+          "date": "2026-01",
+          "value": 2.35
+        },
+        {
+          "date": "2026-02",
+          "value": 2.8
+        },
+        {
+          "date": "2026-03",
+          "value": 2.35
+        },
+        {
+          "date": "2026-04",
+          "value": 2.62
+        },
+        {
+          "date": "2026-05",
+          "value": 3.44
+        },
+        {
+          "date": "2026-06",
+          "value": 2.54
+        },
+        {
+          "date": "2026-07",
+          "value": 2.26
+        },
+        {
+          "date": "2026-08",
+          "value": 2.16
+        }
+      ]
+    },
+    {
+      "itemKey": "lettuce",
+      "product": "Romaine lettuce, unit",
+      "packageQty": 1,
+      "packageUnit": "ct",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 2.25
+        },
+        {
+          "date": "2025-10",
+          "value": 3.1
+        },
+        {
+          "date": "2025-11",
+          "value": 4.37
+        },
+        {
+          "date": "2025-12",
+          "value": 4.1
+        },
+        {
+          "date": "2026-01",
+          "value": 3.86
+        },
+        {
+          "date": "2026-02",
+          "value": 3.99
+        },
+        {
+          "date": "2026-03",
+          "value": 4.02
+        },
+        {
+          "date": "2026-04",
+          "value": 3.82
+        },
+        {
+          "date": "2026-05",
+          "value": 4.14
+        },
+        {
+          "date": "2026-06",
+          "value": 3.31
+        },
+        {
+          "date": "2026-07",
+          "value": 2.38
+        },
+        {
+          "date": "2026-08",
+          "value": 2.31
+        }
+      ]
+    },
+    {
+      "itemKey": "cucumber",
+      "product": "Cucumber, unit",
+      "packageQty": 1,
+      "packageUnit": "ct",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 1.65
+        },
+        {
+          "date": "2025-10",
+          "value": 1.56
+        },
+        {
+          "date": "2025-11",
+          "value": 1.6
+        },
+        {
+          "date": "2025-12",
+          "value": 1.69
+        },
+        {
+          "date": "2026-01",
+          "value": 1.94
+        },
+        {
+          "date": "2026-02",
+          "value": 2.22
+        },
+        {
+          "date": "2026-03",
+          "value": 1.95
+        },
+        {
+          "date": "2026-04",
+          "value": 1.45
+        },
+        {
+          "date": "2026-05",
+          "value": 1.41
+        },
+        {
+          "date": "2026-06",
+          "value": 1.27
+        },
+        {
+          "date": "2026-07",
+          "value": 1.27
+        },
+        {
+          "date": "2026-08",
+          "value": 1.24
+        }
+      ]
+    },
+    {
+      "itemKey": "avocado",
+      "product": "Avocado, unit",
+      "packageQty": 1,
+      "packageUnit": "ct",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 1.9
+        },
+        {
+          "date": "2025-10",
+          "value": 1.3
+        },
+        {
+          "date": "2025-11",
+          "value": 1.43
+        },
+        {
+          "date": "2025-12",
+          "value": 1.81
+        },
+        {
+          "date": "2026-01",
+          "value": 1.83
+        },
+        {
+          "date": "2026-02",
+          "value": 1.61
+        },
+        {
+          "date": "2026-03",
+          "value": 1.7
+        },
+        {
+          "date": "2026-04",
+          "value": 1.81
+        },
+        {
+          "date": "2026-05",
+          "value": 1.88
+        },
+        {
+          "date": "2026-06",
+          "value": 1.62
+        },
+        {
+          "date": "2026-07",
+          "value": 1.54
+        },
+        {
+          "date": "2026-08",
+          "value": 1.47
+        }
+      ]
+    },
+    {
+      "itemKey": "lime",
+      "product": "Limes, unit",
+      "packageQty": 1,
+      "packageUnit": "ct",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 0.84
+        },
+        {
+          "date": "2025-10",
+          "value": 0.79
+        },
+        {
+          "date": "2025-11",
+          "value": 0.74
+        },
+        {
+          "date": "2025-12",
+          "value": 0.74
+        },
+        {
+          "date": "2026-01",
+          "value": 0.72
+        },
+        {
+          "date": "2026-02",
+          "value": 0.74
+        },
+        {
+          "date": "2026-03",
+          "value": 0.77
+        },
+        {
+          "date": "2026-04",
+          "value": 0.84
+        },
+        {
+          "date": "2026-05",
+          "value": 0.89
+        },
+        {
+          "date": "2026-06",
+          "value": 0.92
+        },
+        {
+          "date": "2026-07",
+          "value": 0.8
+        },
+        {
+          "date": "2026-08",
+          "value": 0.78
+        }
+      ]
+    },
+    {
+      "itemKey": "bacon",
+      "product": "Bacon, 500 grams",
+      "packageQty": 500,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 7.74
+        },
+        {
+          "date": "2025-10",
+          "value": 7.74
+        },
+        {
+          "date": "2025-11",
+          "value": 7.44
+        },
+        {
+          "date": "2025-12",
+          "value": 7.79
+        },
+        {
+          "date": "2026-01",
+          "value": 8.06
+        },
+        {
+          "date": "2026-02",
+          "value": 7.71
+        },
+        {
+          "date": "2026-03",
+          "value": 7.32
+        },
+        {
+          "date": "2026-04",
+          "value": 7.37
+        },
+        {
+          "date": "2026-05",
+          "value": 7.58
+        },
+        {
+          "date": "2026-06",
+          "value": 7.61
+        },
+        {
+          "date": "2026-07",
+          "value": 7.77
+        },
+        {
+          "date": "2026-08",
+          "value": 7.68
+        }
+      ]
+    },
+    {
+      "itemKey": "cream",
+      "product": "Cream, 1 litre",
+      "packageQty": 1000,
+      "packageUnit": "ml",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 4.41
+        },
+        {
+          "date": "2025-10",
+          "value": 4.35
+        },
+        {
+          "date": "2025-11",
+          "value": 4.6
+        },
+        {
+          "date": "2025-12",
+          "value": 3.95
+        },
+        {
+          "date": "2026-01",
+          "value": 5.16
+        },
+        {
+          "date": "2026-02",
+          "value": 4.52
+        },
+        {
+          "date": "2026-03",
+          "value": 4.44
+        },
+        {
+          "date": "2026-04",
+          "value": 4.47
+        },
+        {
+          "date": "2026-05",
+          "value": 4.74
+        },
+        {
+          "date": "2026-06",
+          "value": 4.59
+        },
+        {
+          "date": "2026-07",
+          "value": 4.73
+        },
+        {
+          "date": "2026-08",
+          "value": 4.94
+        }
+      ]
+    },
+    {
+      "itemKey": "peanut_butter",
+      "product": "Peanut butter, 1 kilogram",
+      "packageQty": 1000,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 5.55
+        },
+        {
+          "date": "2025-10",
+          "value": 6.06
+        },
+        {
+          "date": "2025-11",
+          "value": 6.01
+        },
+        {
+          "date": "2025-12",
+          "value": 6.05
+        },
+        {
+          "date": "2026-01",
+          "value": 5.87
+        },
+        {
+          "date": "2026-02",
+          "value": 5.54
+        },
+        {
+          "date": "2026-03",
+          "value": 6.1
+        },
+        {
+          "date": "2026-04",
+          "value": 6.12
+        },
+        {
+          "date": "2026-05",
+          "value": 6.18
+        },
+        {
+          "date": "2026-06",
+          "value": 6.15
+        },
+        {
+          "date": "2026-07",
+          "value": 5.51
+        },
+        {
+          "date": "2026-08",
+          "value": 5.85
+        }
+      ]
+    },
+    {
+      "itemKey": "coffee",
+      "product": "Roasted or ground coffee, 340 grams",
+      "packageQty": 340,
+      "packageUnit": "g",
+      "loose": false,
+      "points": [
+        {
+          "date": "2025-09",
+          "value": 9.56
+        },
+        {
+          "date": "2025-10",
+          "value": 9.49
+        },
+        {
+          "date": "2025-11",
+          "value": 9.13
+        },
+        {
+          "date": "2025-12",
+          "value": 9.76
+        },
+        {
+          "date": "2026-01",
+          "value": 9.73
+        },
+        {
+          "date": "2026-02",
+          "value": 9.49
+        },
+        {
+          "date": "2026-03",
+          "value": 9.53
+        },
+        {
+          "date": "2026-04",
+          "value": 9.77
+        },
+        {
+          "date": "2026-05",
+          "value": 9.47
+        },
+        {
+          "date": "2026-06",
+          "value": 9.73
+        },
+        {
+          "date": "2026-07",
+          "value": 9.54
+        },
+        {
+          "date": "2026-08",
+          "value": 9.7
+        }
+      ]
+    }
+  ]
+}

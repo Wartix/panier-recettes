@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: panier
+      POSTGRES_PASSWORD: panier
+      POSTGRES_DB: panier
+    ports:
+      - "5432:5432"
+    volumes:
+      - panier-pg:/var/lib/postgresql/data
+  app:
+    build:
+      context: .
+      args:
+        DATABASE_PROVIDER: postgresql
+    environment:
+      DATABASE_URL: postgresql://panier:panier@db:5432/panier
+      SESSION_SECRET: change-me
+      DEFAULT_POSTAL_CODE: H7T2P1
+    ports:
+      - "3847:3847"
+    depends_on:
+      - db
+
+volumes:
+  panier-pg:
